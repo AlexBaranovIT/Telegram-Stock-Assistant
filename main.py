@@ -14,9 +14,11 @@ COMPANY_TO_TICKER = {
     # ... add more companies and their tickers as needed
 }
 
+
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
     bot.reply_to(message, "Hello! Send me a stock ticker (e.g., AAPL for Apple) or a company name, and I'll give you its current price.")
+
 
 @bot.message_handler(func=lambda message: True)
 def send_stock_price(message):
