@@ -35,4 +35,4 @@ def send_stock_price(message):
     except Exception as e:
         bot.reply_to(message, f"Sorry, I couldn't fetch the price for {ticker}. Please try another stock ticker or company name.")
 
-bot.polling()
+bot.polling(none_stop=True)
