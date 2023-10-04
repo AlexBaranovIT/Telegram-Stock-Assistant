@@ -1,0 +1,1 @@
+To run the program correctly, run 'pip install telebot yfinance' in your terminal
