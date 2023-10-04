@@ -1,9 +1,12 @@
 import telebot
 import yfinance as yf
+from keepalive import keep_alive
 
 # Replace with your Telegram bot token
 TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
 bot = telebot.TeleBot(TOKEN)
+
+keep_alive()
 
 # Mapping of company names to their stock tickers
 COMPANY_TO_TICKER = {
