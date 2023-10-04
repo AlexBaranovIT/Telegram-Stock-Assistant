@@ -106,7 +106,7 @@ COMPANY_TO_TICKER = {
 }
 
 
-@bot.message_handler(commands=['start', 'help'])
+@bot.message_handler(commands=['start'])
 def send_welcome(message):
     bot.reply_to(message, "Hello! Send me a stock ticker (e.g., AAPL for Apple) or a company name, and I'll give you its current price.")
 
