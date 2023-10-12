@@ -6,7 +6,7 @@ from keepalive import keep_alive
 TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
 bot = telebot.TeleBot(TOKEN)
 
-keep_alive()
+keep_alive() 
 
 # Mapping of company names to their stock tickers
 COMPANY_TO_TICKER = {
