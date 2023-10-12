@@ -1,4 +1,6 @@
+# pip install telebot
 import telebot
+# pip install yfinance
 import yfinance as yf
 from keepalive import keep_alive
 
