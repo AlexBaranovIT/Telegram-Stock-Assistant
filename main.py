@@ -128,5 +128,5 @@ def send_stock_price(message):
             bot.reply_to(message, f"The current price of {ticker} is ${price:.2f}")
     except Exception as e:
         bot.reply_to(message, f"Sorry, I couldn't fetch the price for {ticker}. Please try another stock ticker or company name.")
- 
+  
 bot.polling(none_stop=True)
