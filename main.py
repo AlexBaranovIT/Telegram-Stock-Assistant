@@ -14,7 +14,7 @@ keep_alive()
 # Mapping of company names to their stock tickers
 COMPANY_TO_TICKER = {
     'APPLE': 'AAPL',
-    'MICROSOFT': 'MSFT',
+    'MICROSOFT': 'MSFT', 
     'GOOGLE': 'GOOGL',
     'AMAZON': 'AMZN',
     'FACEBOOK': 'FB',
