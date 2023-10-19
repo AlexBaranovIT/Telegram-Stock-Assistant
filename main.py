@@ -9,6 +9,7 @@ from keepalive import keep_alive
 TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
 bot = telebot.TeleBot(TOKEN)
 
+# To set up monitor using UptimeRobot
 keep_alive() 
  
 # Mapping of company names to their stock tickers
