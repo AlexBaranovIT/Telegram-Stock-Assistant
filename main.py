@@ -4,7 +4,7 @@ import telebot
 import yfinance as yf
 # to connect to monitor UptimeRobot
 from keepalive import keep_alive
- 
+
 # Replace with your Telegram bot token from @BotFather
 TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
 bot = telebot.TeleBot(TOKEN)
