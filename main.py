@@ -130,4 +130,5 @@ def send_stock_price(message):
         bot.reply_to(message, f"Sorry, I couldn't fetch the price for {ticker}. Please try another stock ticker or company name.")
 
 
+# Start the bot, to make it look for update
 bot.polling(none_stop=True)
