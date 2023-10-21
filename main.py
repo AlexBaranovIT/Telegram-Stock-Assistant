@@ -11,7 +11,7 @@ bot = telebot.TeleBot(TOKEN)
 
 # To set up monitor using UptimeRobot
 keep_alive() 
- 
+  
 # Mapping of company names to their stock tickers
 COMPANY_TO_TICKER = {
     'APPLE': 'AAPL',
