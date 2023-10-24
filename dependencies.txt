@@ -1,2 +1,2 @@
-To run the program correctly, run 'pip install telebot yfinance' in your terminal.
+!! To run the program correctly, run 'pip install telebot yfinance' in your terminal. !!
 This will install telebot and yfinance libraries that are used in this project.
